@@ -2,8 +2,16 @@ package code.oop;
 
 public class Car {
     private String mark;
-    private double maxSpeed;
+    public static double maxSpeed;
     private byte amountDoor;
+    public int o;
+    Car(){};
+    Car(double maxSpeed,byte amountDoor,int o,String mark ){
+        this.maxSpeed = maxSpeed ;
+        this.amountDoor = amountDoor ;
+        this.o = o;
+        this.mark = mark;
+    }
 
     public String getMark() {
         return mark;
@@ -29,12 +37,22 @@ public class Car {
         this.amountDoor = amountDoor;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Car{" +
-//                "mark='" + mark + '\'' +
-//                ", maxSpeed=" + maxSpeed +
-//                ", amountDoor=" + amountDoor +
-//                '}';
-//    }
-}
+    public static double ipo(double p){
+    maxSpeed = 10;
+
+        return 1;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
