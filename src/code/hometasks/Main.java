@@ -22,6 +22,9 @@ public class Main {
         phone1.sendMessage("252", "178498", "7", "+14891");
 
 
+        phone1.r(1);
+
+
     }
 
 
