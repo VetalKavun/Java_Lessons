@@ -1,29 +1,58 @@
 package code.hometasks;
 
 public class Phone {
-
+    Auxiliary k = new Auxiliary();
     private String number;
     private String model;
     private double weight;
     private static double g;
+    public int p = 24;
+    public static int w = 0;
+
+    static {
+        Phone k = new Phone();
+
+        w = 100;
+        Auxiliary l = new Auxiliary();
+        l.t1 = 10;
+        w += l.t1;
+
+    }
+
+    Phone(int p) {
+        w = 10;
+    }
+
 
     public Phone(String number, String model, double weight) {
-
+        Auxiliary u = new Auxiliary();
+        u.t1 = 20;
         this.model = model;
         this.number = number;
-        this.weight = weight;
+        this.weight = weight + u.t1;
 
     }
 
     public Phone(String number, String model) {
         this.number = number;
         this.model = model;
+
+    }
+
+    public int kl(int y) {
+
+        return Auxiliary.o + y;
     }
 
     public Phone() {
 
     }
 
+    public int we(Auxiliary j) {
+        j.t1 = 10;
+        return 1;
+
+    }
 
     public String getNumber() {
         return number;
@@ -72,46 +101,24 @@ public class Phone {
             private int pp1;
             private int pp2;
 
-            public int getI1() {
-                return i1;
+            class L {
+                public int ii1;
+                public int i2;
+                public int i3;
+                private int pp1;
+                private int pp2;
+
             }
 
-            public void setI1(int i1) {
-                this.i1 = i1;
-            }
-
-            public int getI2() {
-                return i2;
-            }
-
-            public void setI2(int i2) {
-                this.i2 = i2;
-            }
-
-            public int getI3() {
-                return i3;
-            }
-
-            public void setI3(int i3) {
-                this.i3 = i3;
-            }
-
-            public int getPp1() {
-                return pp1;
-            }
-
-            public void setPp1(int pp1) {
-                this.pp1 = pp1;
-            }
-
-            public int getPp2() {
-                return pp2;
-            }
-
-            public void setPp2(int pp2) {
-                this.pp2 = pp2;
-            }
         }
+
+        K j = new K();
+        j.i2 = 10;
+
+
+        //K.L u = new K();
+        //l.ii1 = 30;
+
 
         return 1;
     }
