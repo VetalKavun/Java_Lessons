@@ -4,8 +4,9 @@ import com.company.details.Engine;
 import com.company.professions.Driver;
 
 public class Car {
-
-    private String brand;
+    public int jj;
+    public static int vvv;
+    protected String brand;
     private String autoClass;
     private int weight;
     public Driver driver = new Driver();
@@ -27,20 +28,20 @@ public class Car {
         return driver.getName();
     }
 
-    public void setEnginePower(int power){
+    public void setEnginePower(int power) {
         engine.setPower(power);
     }
 
-    public void setEngineProducer(String producer){
+    public void setEngineProducer(String producer) {
         engine.setProducer(producer);
     }
 
-    public int getEnginePower(){
+    public int getEnginePower() {
         return engine.getPower();
     }
 
-    public String getEngineProducer(){
-       return engine.getProducer();
+    public String getEngineProducer() {
+        return engine.getProducer();
     }
 
     public String getBrand() {

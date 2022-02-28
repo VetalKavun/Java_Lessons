@@ -1,6 +1,8 @@
 package com.company.details;
 
-public class Engine {
+import com.company.vehicles.SportCar;
+
+public class Engine extends SportCar {
     private int power;
     private String producer;
 

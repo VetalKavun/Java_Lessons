@@ -1,4 +1,4 @@
-package first;
+package code.first;
 
 public class Person {
 

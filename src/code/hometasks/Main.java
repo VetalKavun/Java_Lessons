@@ -1,13 +1,14 @@
 package code.hometasks;
 
 import java.io.File;
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 import java.math.BigInteger;
-import java.util.Random;
+
+
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String args[]) throws FileNotFoundException {
+    public static void main(String args[]) {
 /*
         Phone phone1 = new Phone("+38030", "Sumsung", 0.2);
         Phone phone2 = new Phone("184", "Nokia", 0.234);
@@ -164,20 +165,37 @@ public class Main {
         Auxiliary.w = 94;*/
 
 
-        Auxiliary l = new Auxiliary();
+       /* Auxiliary l = new Auxiliary();
         l.t1 = 244;
 
         Auxiliary l1 = new Auxiliary();
-        l1.t2 = 244;
+        l1.t1 = 244;
 
-       /* DemoPerson.First uo = new DemoPerson.First();
+       *//* DemoPerson.First uo = new DemoPerson.First();
         uo.k1 = 42;
         DemoPerson demoPerson = new DemoPerson();
-        demoPerson.j = 24;*/
+        demoPerson.j = 24;*//*
 
         Auxiliary sd = new Auxiliary();
 
         System.out.println(sd.r);
+*/
+
+        Phone ph = new Phone();
+        ph.y.t1 = 94;
+        System.out.println(ph.y.t1);
+
+        Phone.y1.t1 = 2445;
+        System.out.println(Phone.y1.t1);
+
+        Person v = new Person();
+        //v.i.y.t1 = 4992;
+        System.out.println(v.i.y.t1);
+        java.util.Random rmd = new java.util.Random();
+
+int y = rmd.nextInt();
+        System.out.println(rmd);
+
 
 
     }

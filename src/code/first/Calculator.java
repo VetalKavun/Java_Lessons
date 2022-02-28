@@ -1,6 +1,9 @@
-package first;
+package code.first;
 
 public class Calculator {
+    public int o ;
+    protected int oo;
+
     public static double add(double a,double b){
         return a + b;
     }

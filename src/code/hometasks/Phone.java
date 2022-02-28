@@ -1,7 +1,7 @@
 package code.hometasks;
 
 public class Phone {
-    Auxiliary k = new Auxiliary();
+    //Auxiliary k = new Auxiliary();
     private String number;
     private String model;
     private double weight;
@@ -9,9 +9,13 @@ public class Phone {
     public int p = 24;
     public static int w = 0;
 
+    public Auxiliary y = new Auxiliary(2, 34, 78);
+    public static Auxiliary y1 = new Auxiliary(2, 34, 78);
+    public  void pf(int k){System.out.println(w);}
+
     static {
         Phone k = new Phone();
-
+        //Person.y.t1 = 25;
         w = 100;
         Auxiliary l = new Auxiliary();
         l.t1 = 10;
@@ -46,6 +50,7 @@ public class Phone {
 
     public Phone() {
 
+
     }
 
     public int we(Auxiliary j) {
@@ -55,6 +60,7 @@ public class Phone {
     }
 
     public String getNumber() {
+
         return number;
     }
 

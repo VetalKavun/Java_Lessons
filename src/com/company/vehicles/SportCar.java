@@ -2,6 +2,7 @@ package com.company.vehicles;
 
 public class SportCar extends Car {
     private int marginalSpeed;
+    protected int g;
 
     public int getMarginalSpeed() {
         return marginalSpeed;
@@ -11,7 +12,7 @@ public class SportCar extends Car {
         this.marginalSpeed = marginalSpeed;
     }
 
-    public void toStringMarginalSpeed(){
+    public void toStringMarginalSpeed() {
         System.out.println("Sport car marginal speed:" + getMarginalSpeed());
     }
 

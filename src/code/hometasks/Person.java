@@ -12,6 +12,12 @@ public class Person {
         this.fullName = fullName;
     }
 
+    //public Auxiliary y = new Auxiliary(2,34,78);
+    public Phone i = new Phone();
+    {
+        i.y.t1 =39;
+    }
+
 
     public String getFullName() {
         return fullName;

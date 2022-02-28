@@ -6,8 +6,8 @@ public class Auxiliary {
     public static int u = 10;
 
     public int t1;
-    public double t2;
-    ;
+    private double t2;
+
     public double t3;
 
     private static int p;
@@ -17,10 +17,28 @@ public class Auxiliary {
     protected int r = 95;
 
 
+    static int j = 24;
+
+void df(){Phone.w += 1000;System.out.println(Phone.w);}
+
+
+
+
+    {
+       /*Person r = new Person() ;
+       r.y.t2 = 24;*/
+        //Phone.y.t2 = 24;
+        t1 = 35;
+        t2 = 532;
+    }
+
+
+
+
     Phone fl;
 
 
-    Phone phone = new Phone(3);
+    //Phone phone = new Phone(3);
 
     /*public static Auxiliary y(int t) {
         int i = 10 + t;
@@ -38,6 +56,7 @@ public class Auxiliary {
     public int u() {
         t1 += 10;
         //System.out.println(t1);
+
         return t1;
     }
 

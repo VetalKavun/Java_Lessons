@@ -2,7 +2,8 @@ package com.company.professions;
 
 public class Driver {
     private String name;
-    private int  drivingTerm;
+    private int drivingTerm;
+    protected int pp;
 
     public String getName() {
         return name;
@@ -20,11 +21,6 @@ public class Driver {
         this.drivingTerm = drivingTerm;
     }
 
-
-
-
-
-
-
+    
 
 }

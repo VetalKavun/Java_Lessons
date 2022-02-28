@@ -2,9 +2,8 @@ package code.hometasks;
 
 public class DemoPerson {
 
-    /*private int r = 12;
-    protected int  j = 30;
-
+    private int r = 12;
+    protected int j = 30;
 
 
     static class First {
@@ -12,11 +11,19 @@ public class DemoPerson {
         private int k0;
         public int k1;
         protected int k2;
-        First() {};
+
+        First() {
+        }
+
+        ;
+
         int g() {
             Second second = new Second(10);
             //System.out.println(second.s0);
-            return second.s0;};
+            return second.s0;
+        }
+
+        ;
     }
 
 
@@ -25,12 +32,19 @@ public class DemoPerson {
         public int s0;
         private int s1;
         protected int s2;
-        Second() {};
-        Second(int h) {s0 = h; First first = new First();};
+
+        Second() {
+        }
+
+        ;
+
+        Second(int h) {
+            s0 = h;
+            First first = new First();
+        }
+
+        ;
     }
-
-
-
 
 
     public static void main(String[] args) {
@@ -38,7 +52,12 @@ public class DemoPerson {
         first = new First();
         first.g();
         Second second = new Second();
-*/
+
+       // Phone k = new Phone();
+       // k.pf();
+      //  Auxiliary n = new Auxiliary();
+        //n.df();
+
 
         /*Person person = new Person("AndLeb", 21);
         Person person1 = new Person();
@@ -61,7 +80,8 @@ public class DemoPerson {
         reader.takeBook(book);*/
 
 
-    //}
+        //}
 
 
+    }
 }
