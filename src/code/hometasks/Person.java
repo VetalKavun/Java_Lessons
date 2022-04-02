@@ -1,46 +1,29 @@
 package code.hometasks;
 
-public class Person {
-    private String fullName;
-    private int age;
+import code.two.*;
 
-    public Person() {
+
+public class Person extends E {
+
+    public static int y = 49;
+    public int ye = 49;
+    public int yyy = 49;
+
+    E e = new E();
+
+
+    int u(){
+        return 1;}
+
+    public int i() {
+        System.out.println("Inheritant");
+        return 1 ;
     }
 
-    public Person(String fullName, int age) {
-        this.age = age;
-        this.fullName = fullName;
-    }
 
-    //public Auxiliary y = new Auxiliary(2,34,78);
-    public Phone i = new Phone();
-    {
-        i.y.t1 =39;
-    }
-
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void move() {
-        System.out.println(fullName + " move");
-    }
-
-    public void talk() {
-        System.out.println(fullName + " talk");
+    public static int ii() {
+        System.out.println("Inheritant");
+        return 1 ;
     }
 
 

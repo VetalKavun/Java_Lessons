@@ -1,35 +1,10 @@
 package code.animals;
 
- public class Animal {
-   private  String food;
-    private String location;
+public interface Animal {
 
-     public String getFood() {
-         return food;
-     }
+    void makeNoise();
 
-     public void setFood(String food) {
-         this.food = food;
-     }
+    int i = 94;
 
-     public String getLocation() {
-         return location;
-     }
 
-     public void setLocation(String location) {
-         this.location = location;
-     }
-
-     public void makeNoise(){
-         System.out.println("Animal make noise");
-     }
-
-     public void eat(){
-         System.out.println("Animal eat");
-     }
-
-     public void sleep(){
-         System.out.println("Animal sleep");
-     }
-
- }
+}
